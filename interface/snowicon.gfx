@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_adjuster_snow_bg"
+		textureFile = "gfx//interface//snow_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_tz"
+		textureFile = "gfx//tz.dds"
+	}
+	spriteType = {
+		name = "GFX_tz_small"
+		textureFile = "gfx//tz_small.dds"
+	}
+}
