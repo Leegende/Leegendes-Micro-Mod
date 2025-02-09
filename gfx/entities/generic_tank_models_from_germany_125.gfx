@@ -1,0 +1,63 @@
+objectTypes = {
+	
+##########################
+# LEOPARD VK1602 (GER_light_armor_2)
+##########################
+	pdxmesh = {
+		name = "GEN_light_armor_2_alt_1_mesh"
+		file = "gfx/models/units/tanks/GEN_light_armor_2_alt_1.mesh"
+		
+		animation = { id = "idle"			type = "GEN_light_armor_2_alt_1_idle_animation" }
+		animation = { id = "move"			type = "GEN_light_armor_2_alt_1_moving_animation" }
+		animation = { id = "attack"			type = "GEN_light_armor_2_alt_1_attack_animation" }
+	}
+	
+##########################
+# PANTHER (GER_medium_armor_2)
+##########################
+	pdxmesh = {
+		name = "GEN_medium_armor_2_alt_0_mesh"
+		file = "gfx/models/units/tanks/GEN_medium_armor_2_alt_0.mesh"
+		
+		animation = { id = "idle"			type = "GEN_medium_armor_2_alt_0_idle_animation" }
+		animation = { id = "move"			type = "GEN_medium_armor_2_alt_0_moving_animation" }
+		animation = { id = "attack"			type = "GEN_medium_armor_2_alt_0_attack_animation" }
+	}
+		
+##########################
+# KING TIGER (GER_heavy_armor_2)
+##########################
+	pdxmesh = {
+		name = "GEN_heavy_armor_2_alt_2_mesh"
+		file = "gfx/models/units/tanks/GEN_heavy_armor_2_alt_2.mesh"
+		
+		animation = { id = "idle"			type = "GEN_heavy_armor_2_alt_2_idle_animation" }
+		animation = { id = "move"			type = "GEN_heavy_armor_2_alt_2_moving_animation" }
+		animation = { id = "attack"			type = "GEN_heavy_armor_2_alt_2_attack_animation" }
+	}
+	
+##########################
+# MAUS (GER_super_heavy_armor)
+##########################
+	pdxmesh = {
+		name = "GEN_super_heavy_armor_alt_0_mesh"
+		file = "gfx/models/units/tanks/GEN_super_heavy_armor_alt_0.mesh"
+		
+		animation = { id = "idle"			type = "GEN_super_heavy_armor_alt_0_idle_animation" }
+		animation = { id = "move"			type = "GEN_super_heavy_armor_alt_0_moving_animation" }
+		animation = { id = "attack"			type = "GEN_super_heavy_armor_alt_0_attack_animation" }
+	}
+	
+##########################
+# E-50 (GER_modern_armor)
+##########################
+	pdxmesh = {
+		name = "GEN_modern_armor_alt_0_mesh"
+		file = "gfx/models/units/tanks/GEN_modern_armor_alt_0.mesh"
+		
+		animation = { id = "idle"			type = "GEN_modern_armor_alt_0_idle_animation" }
+		animation = { id = "move"			type = "GEN_modern_armor_alt_0_moving_animation" }
+		animation = { id = "attack"			type = "GEN_modern_armor_alt_0_attack_animation" }
+	}
+	
+}
