@@ -1,15 +1,13 @@
 
 #####################################################################
 #####															#####
-#####					CZECHOSLOVAKIA							#####
+#####					CZECHOSLOVAKIA						#####
 #####															#####
 #####################################################################	
-
 
 entity = {
 	name = "CZE_infantry_entity"
 	pdxmesh = "CZE_infantry_rifle_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_rifle" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
@@ -46,13 +44,14 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }			
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }	
 
 entity = {
 	name = "CZE_infantry_2_entity"
 	pdxmesh = "CZE_infantry_mg_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_mg" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
@@ -77,6 +76,7 @@ entity = {
 	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
 	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	
 	attach = { 	name = "rifle1"	Right_Hand_node = "CZE_infantry_weapon_mg_right_entity" }	
@@ -88,17 +88,24 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }				
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }
+
+
 
 entity = {
 	name = "CZE_infantry_weapon_mg_left_entity"
 	pdxmesh = "CZE_infantry_weapon_mg_mesh"
+	scale = 0.5
+	
 }	
 
 entity = {
 	name = "CZE_infantry_weapon_mg_right_entity"
 	pdxmesh = "CZE_infantry_weapon_mg_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -127,17 +134,22 @@ entity = {
 
 entity = {
 	name = "CZE_infantry_weapon_mg_long_idle_entity"
-	pdxmesh = "CZE_infantry_weapon_mg_mesh"	
+	pdxmesh = "CZE_infantry_weapon_mg_mesh"
+	scale = 0.5
+
+	
 }	
 
 entity = {
 	name = "CZE_infantry_weapon_rifle_right_entity"
 	pdxmesh = "CZE_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "CZE_infantry_weapon_rifle_left_entity"
 	pdxmesh = "CZE_infantry_weapon_rifle_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -166,19 +178,17 @@ entity = {
 entity = {
 	name = "CZE_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "CZE_infantry_weapon_rifle_mesh"
-
+	scale = 0.5
 }
-
 #####################################################################
 #####															#####
-#####					HUNGARY									#####
+#####					HUNGARY						#####
 #####															#####
 #####################################################################	
 
 entity = {
 	name = "HUN_infantry_entity"
 	pdxmesh = "HUN_infantry_rifle_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_rifle" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
@@ -216,12 +226,13 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }	
 
 entity = {
 	name = "HUN_infantry_2_entity"
 	pdxmesh = "HUN_infantry_mg_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_mg" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
@@ -246,6 +257,7 @@ entity = {
 	state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
 	state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+	#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
 	
 	attach = { 	name = "rifle1"	Right_Hand_node = "HUN_infantry_weapon_mg_right_entity" }	
@@ -258,16 +270,22 @@ entity = {
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }
+
+
 
 entity = {
 	name = "HUN_infantry_weapon_mg_left_entity"
 	pdxmesh = "HUN_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "HUN_infantry_weapon_mg_right_entity"
 	pdxmesh = "HUN_infantry_weapon_mg_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -297,16 +315,19 @@ entity = {
 entity = {
 	name = "HUN_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "HUN_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "HUN_infantry_weapon_rifle_right_entity"
 	pdxmesh = "HUN_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "HUN_infantry_weapon_rifle_left_entity"
 	pdxmesh = "HUN_infantry_weapon_rifle_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -335,6 +356,7 @@ entity = {
 entity = {
 	name = "HUN_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "HUN_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }
 
 #####################################################################
@@ -346,9 +368,7 @@ entity = {
 entity = {
 	name = "ROM_infantry_entity"
 	pdxmesh = "ROM_infantry_rifle_mesh"
-	scale = 0 # = 0.45
 	version = 2
-	
 	default_state = "idle"
 	state = { name = "attack"				animation = "charge_rifle" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 	state = { name = "attack"				animation = "charge_rifle_shoot" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -384,15 +404,15 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }					
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }	
 
 entity = {
 	name = "ROM_infantry_2_entity"
 	pdxmesh = "ROM_infantry_mg_mesh"
-	scale = 0 # = 0.45
 	version = 2
-	
 	default_state = "idle"
 	state = { name = "attack"				animation = "charge_mg" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
 	state = { name = "attack"				animation = "charge_mg_shoot" 			animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -428,17 +448,23 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }				
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }
+
+
 
 entity = {
 	name = "ROM_infantry_weapon_mg_left_entity"
 	pdxmesh = "ROM_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "ROM_infantry_weapon_mg_right_entity"
 	pdxmesh = "ROM_infantry_weapon_mg_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -468,16 +494,19 @@ entity = {
 entity = {
 	name = "ROM_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "ROM_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "ROM_infantry_weapon_rifle_right_entity"
 	pdxmesh = "ROM_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "ROM_infantry_weapon_rifle_left_entity"
 	pdxmesh = "ROM_infantry_weapon_rifle_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -506,7 +535,9 @@ entity = {
 entity = {
 	name = "ROM_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "ROM_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }
+
 
 #####################################################################
 #####															#####
@@ -517,7 +548,6 @@ entity = {
 entity = {
 	name = "YUG_infantry_entity"
 	pdxmesh = "YUG_infantry_rifle_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_rifle" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
@@ -554,13 +584,14 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }					
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }	
 
 entity = {
 	name = "YUG_infantry_2_entity"
 	pdxmesh = "YUG_infantry_mg_mesh"
-	scale = 0 # = 0.45
 	
 	default_state = "idle"
 	state = { name = "attack"			animation = "charge_mg" 					animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle1 = "idle" } }
@@ -597,17 +628,23 @@ entity = {
 	attach = { 	name = "cigarette1"			Right_Hand_node_2 = "cigarette_entity" }
 	attach = { 	name = "cigarette_package1"	Right_Hand_node_3 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
-	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }				
+	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
+	
+	scale = 0.5			
 }
+
+
 
 entity = {
 	name = "YUG_infantry_weapon_mg_left_entity"
 	pdxmesh = "YUG_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "YUG_infantry_weapon_mg_right_entity"
 	pdxmesh = "YUG_infantry_weapon_mg_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -637,16 +674,19 @@ entity = {
 entity = {
 	name = "YUG_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "YUG_infantry_weapon_mg_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "YUG_infantry_weapon_rifle_right_entity"
 	pdxmesh = "YUG_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }	
 
 entity = {
 	name = "YUG_infantry_weapon_rifle_left_entity"
 	pdxmesh = "YUG_infantry_weapon_rifle_mesh"
+	scale = 0.5
 
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -675,7 +715,9 @@ entity = {
 entity = {
 	name = "YUG_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "YUG_infantry_weapon_rifle_mesh"
+	scale = 0.5
 }
+
 
 entity = {
 	clone = CZE_infantry_2_entity

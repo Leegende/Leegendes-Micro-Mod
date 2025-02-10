@@ -1,0 +1,22 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "RAJ_plane_fighter_hawkerhart_mesh"
+		file = "gfx/models/units/planes/RAJ_plane_fighter_hawkerhart.mesh"
+		scale = 0.5
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = {
+		name = "AST_plane_fighter_boomerang_mesh"
+		file = "gfx/models/units/planes/AST_plane_fighter_boomerang.mesh"
+		scale = 0.5
+		animation = { id = "idle" type = "fighter_default_idle_animation" }	
+	}
+	
+	pdxmesh = {
+		name = "AST_plane_bomber_woomera_mesh"
+		file = "gfx/models/units/planes/AST_plane_bomber_woomera.mesh"
+		scale = 0.5
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

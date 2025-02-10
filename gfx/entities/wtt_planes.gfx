@@ -1,0 +1,16 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "CHI_plane_light_mesh"
+		file = "gfx/models/units/planes/CHI_plane_light_chu_x_p0.mesh"
+		scale = 0.5
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "PRC_plane_light_mesh"
+		file = "gfx/models/units/planes/PRC_plane_light_chu_x_p0.mesh"
+		scale = 0.5
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}
