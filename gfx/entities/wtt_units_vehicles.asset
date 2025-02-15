@@ -5,7 +5,7 @@
 	entity = {
 		name = "CHI_motorized_vehicle_entity"
 		pdxmesh = "CHI_motorized_mesh"
-		scale = 0 # = 0.7
+		scale = 0.7
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 
@@ -32,7 +32,7 @@
 	entity = {
 		name = "CHI_vehicle_infantry_rifle_entity"
 		pdxmesh = "CHI_infantry_rifle_mesh"
-		scale = 0 # = 0.45
+		scale = 0.45
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -69,7 +69,7 @@
 	entity = {
 		name = "CHI_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -91,7 +91,7 @@
 	entity = {
 		name = "PRC_vehicle_infantry_rifle_entity"
 		pdxmesh = "PRC_infantry_rifle_mesh"
-		scale = 0 # = 0.45
+		scale = 0.45
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -128,7 +128,7 @@
 	entity = {
 		name = "PRC_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -156,7 +156,7 @@
 	entity = {
 		name = "GXC_vehicle_infantry_rifle_entity"
 		pdxmesh = "GXC_infantry_mesh"
-		scale = 0 # = 0.45
+		scale = 0.45
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -193,7 +193,7 @@
 	entity = {
 		name = "GXC_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -220,7 +220,7 @@
 	entity = {
 		name = "SHX_vehicle_infantry_rifle_entity"
 		pdxmesh = "SHX_infantry_rifle_mesh"
-		scale = 0 # = 0.45		
+		scale = 0.45		
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -257,7 +257,7 @@
 	entity = {
 		name = "SHX_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -284,7 +284,7 @@
 	entity = {
 		name = "XSM_vehicle_infantry_rifle_entity"
 		pdxmesh = "XSM_infantry_rifle_mesh"
-		scale = 0 # = 0.45
+		scale = 0.45
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -321,7 +321,7 @@
 	entity = {
 		name = "XSM_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -348,7 +348,7 @@
 	entity = {
 		name = "YUN_vehicle_infantry_rifle_entity"
 		pdxmesh = "YUN_infantry_mesh"
-		scale = 0 # = 0.45
+		scale = 0.45
 		
 		state = { name = "attack"			animation = "charge_rifle" 		animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 2 propagate_state = { rifle2 = "idle" } }
 		state = { name = "attack"			animation = "charge_rifle_shoot" 	animation_blend_time = 0.0  animation_speed = 1.0 looping = no next_state = "attack" chance = 1 }
@@ -385,7 +385,7 @@
 	entity = {
 		name = "YUN_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
-		scale = 0 # = 1
+		scale = 1
 		
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }

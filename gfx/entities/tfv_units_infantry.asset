@@ -1,8 +1,9 @@
 #####################################################################
 #####															#####
-#####					AUSTRALIA						#####
+#####					AUSTRALIA								#####
 #####															#####
 #####################################################################	
+
 
 entity = {
 	name = "AST_infantry_entity"
@@ -45,7 +46,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -89,7 +90,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45		
 }
 
 entity = {
@@ -133,7 +134,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -177,19 +178,19 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
 	name = "AST_infantry_weapon_mg_left_entity"
 	pdxmesh = "AST_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "AST_infantry_weapon_mg_right_entity"
 	pdxmesh = "AST_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -219,19 +220,19 @@ entity = {
 entity = {
 	name = "AST_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "AST_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "AST_infantry_weapon_rifle_right_entity"
 	pdxmesh = "AST_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "AST_infantry_weapon_rifle_left_entity"
 	pdxmesh = "AST_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -260,7 +261,7 @@ entity = {
 entity = {
 	name = "AST_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "AST_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }
 
 #####################################################################
@@ -310,7 +311,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -354,7 +355,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
@@ -398,7 +399,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -442,19 +443,19 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
 	name = "NZL_infantry_weapon_mg_left_entity"
 	pdxmesh = "NZL_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "NZL_infantry_weapon_mg_right_entity"
 	pdxmesh = "NZL_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -484,19 +485,19 @@ entity = {
 entity = {
 	name = "NZL_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "NZL_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "NZL_infantry_weapon_rifle_right_entity"
 	pdxmesh = "NZL_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "NZL_infantry_weapon_rifle_left_entity"
 	pdxmesh = "NZL_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -525,7 +526,7 @@ entity = {
 entity = {
 	name = "NZL_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "NZL_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }
 
 #####################################################################
@@ -575,7 +576,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -619,7 +620,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 
@@ -627,13 +628,13 @@ entity = {
 entity = {
 	name = "CAN_infantry_weapon_mg_left_entity"
 	pdxmesh = "CAN_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "CAN_infantry_weapon_mg_right_entity"
 	pdxmesh = "CAN_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -663,19 +664,19 @@ entity = {
 entity = {
 	name = "CAN_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "CAN_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "CAN_infantry_weapon_rifle_right_entity"
 	pdxmesh = "CAN_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "CAN_infantry_weapon_rifle_left_entity"
 	pdxmesh = "CAN_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -704,7 +705,7 @@ entity = {
 entity = {
 	name = "CAN_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "CAN_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }
 
 #####################################################################
@@ -754,7 +755,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -798,7 +799,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
@@ -842,7 +843,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45		
 }	
 
 entity = {
@@ -886,19 +887,19 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
 	name = "RAJ_infantry_weapon_mg_left_entity"
 	pdxmesh = "RAJ_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }
 
 entity = {
 	name = "RAJ_infantry_weapon_mg_right_entity"
 	pdxmesh = "RAJ_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -928,19 +929,19 @@ entity = {
 entity = {
 	name = "RAJ_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "RAJ_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "RAJ_infantry_weapon_rifle_right_entity"
 	pdxmesh = "RAJ_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "RAJ_infantry_weapon_rifle_left_entity"
 	pdxmesh = "RAJ_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -969,7 +970,7 @@ entity = {
 entity = {
 	name = "RAJ_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "RAJ_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }
 
 #####################################################################
@@ -1019,7 +1020,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -1063,7 +1064,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
@@ -1107,7 +1108,7 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }	
 
 entity = {
@@ -1151,19 +1152,19 @@ entity = {
 	attach = { 	name = "cigarette_package2"	Left_Hand_node_2 = "cigarette_package_entity" }
 	attach = { 	name = "cigarette2"			Root_node_1 = "cigarette_entity" }		
 	
-	scale = 0.5			
+	scale = 0.45			
 }
 
 entity = {
 	name = "SAF_infantry_weapon_mg_left_entity"
 	pdxmesh = "SAF_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "SAF_infantry_weapon_mg_right_entity"
 	pdxmesh = "SAF_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -1193,19 +1194,19 @@ entity = {
 entity = {
 	name = "SAF_infantry_weapon_mg_long_idle_entity"
 	pdxmesh = "SAF_infantry_weapon_mg_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "SAF_infantry_weapon_rifle_right_entity"
 	pdxmesh = "SAF_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }	
 
 entity = {
 	name = "SAF_infantry_weapon_rifle_left_entity"
 	pdxmesh = "SAF_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 	
 	get_state_from_parent = yes
 	default_state = "idle"
@@ -1234,7 +1235,7 @@ entity = {
 entity = {
 	name = "SAF_infantry_weapon_rifle_long_idle_entity"
 	pdxmesh = "SAF_infantry_weapon_rifle_mesh"
-	scale = 0.8
+
 }
 
 entity = {

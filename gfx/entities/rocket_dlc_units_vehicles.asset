@@ -3,7 +3,7 @@
 	entity = {
 		name = "motorized_rocket_brigade_entity"
 		pdxmesh = "generic_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -55,7 +55,7 @@
 	entity = {
 		name = "ITA_motorized_rocket_brigade_entity"
 		pdxmesh = "generic_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -109,7 +109,7 @@
 	entity = {
 		name = "GER_motorized_rocket_brigade_entity"
 		pdxmesh = "GER_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -147,7 +147,7 @@
 	entity = {
 		name = "FRA_motorized_rocket_brigade_entity"
 		pdxmesh = "GER_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -185,7 +185,7 @@
 	entity = {
 		name = "SOV_motorized_rocket_brigade_entity"
 		pdxmesh = "SOV_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -239,7 +239,7 @@
 	entity = {
 		name = "JAP_motorized_rocket_brigade_entity"
 		pdxmesh = "SOV_motorized_rocket_mesh"
-		scale = 0 # = 0.25 #0.5
+		scale = 0.25 #0.5
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
@@ -293,7 +293,7 @@
 	entity = {
 		name = "USA_motorized_rocket_brigade_entity"
 		pdxmesh = "USA_motorized_rocket_mesh"
-		scale = 0 # = 0.275 #0.55
+		scale = 0.275 #0.55
 		
 		default_state = "idle"
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
