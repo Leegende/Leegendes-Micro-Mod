@@ -874,7 +874,7 @@ guiTypes = {
 					position = { x= 62 y = 0 }
 					quadTextureSprite ="GFX_topbar_trade_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "z"
+					shortcut = "o"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}	
