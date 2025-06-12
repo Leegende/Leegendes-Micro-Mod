@@ -4,5 +4,5 @@ tags={
 }
 picture="thumbnail.png"
 name="Leegendes Micro Mod"
-supported_version="1.16.8"
+supported_version="1.16.5"
 remote_file_id="3369204653"
