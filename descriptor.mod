@@ -3,6 +3,6 @@ tags={
 	"Graphics"
 }
 picture="thumbnail.png"
-name="Leegendes Micro Mod"
-supported_version="1.16.5"
+name="z Leegendes Micro Mod"
+supported_version="1.16.9"
 remote_file_id="3369204653"
