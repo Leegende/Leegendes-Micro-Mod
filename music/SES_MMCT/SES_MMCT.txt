@@ -1,0 +1,181 @@
+
+
+music_station = "SES_MMCT"
+music = {
+    song = "18"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "Loona-Vamos-a-La-Playa"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "Scott_Brown_-_Taking_Drugs"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "pastel_ghost_-_shadows_speed_up"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "ooes_-_poslednee_leto_speed_up_nightcore"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "Plenka_-_Nostalgia_speed_up__SkySound"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+music_station = "SES_MMCT"
+music = {
+    song = "Basshunter-DotA"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "nedogoniat"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "DDC"
+    chance = {
+      modifier = { factor = 1 }
+	  
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "AgemGryaznoeZhivotnoe_1_"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "OlegSong"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "bro_what"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "Tidiet_speed_up_songs"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "pozvoni"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+
+music_station = "SES_MMCT"
+music = {
+    song = "3434343"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+music_station = "SES_MMCT"
+music = {
+    song = "sonic"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "SonneRammstein"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "Highland_-_Solo_Tu_Overlain_unhexd_speed_up__SkySound"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "zekuu"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
+
+music_station = "SES_MMCT"
+music = {
+    song = "serebro-sladko-speed-up"
+    chance = {
+      modifier = { factor = 1 }
+    
+    }
+}
