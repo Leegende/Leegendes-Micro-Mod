@@ -37,7 +37,7 @@ guiTypes = {
 #			spriteType = "GFX_topbar_date_overlay"
 #			position = { x= -357 y = 0 }
 #			Orientation = "UPPER_RIGHT"
-#		}
+#		}		
 
 		containerWindowType = {
 			name = "toggle_music_commands_win"
@@ -532,6 +532,7 @@ guiTypes = {
 			fixedsize = yes
 		}	
 		
+		
 		containerWindowType = {
 			name = "time_control_window"
 			position = { x=-378 y=7 }
@@ -704,7 +705,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
-				shortcut = "w"
+				shortcut = "shift+q"
 			}
 
 
@@ -754,7 +755,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
-				shortcut = "e"
+				shortcut = "shift+w"
 			}
 
 			iconType = {
@@ -806,7 +807,7 @@ guiTypes = {
 	#				position = { x= -104 y = 0 }
 					position = { x= -49 y = 0 }
 					Orientation = "UPPER_LEFT"
-					shortcut = "r"
+					shortcut = "w"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -816,56 +817,9 @@ guiTypes = {
 					quadTextureSprite ="GFX_topbar_diplomacy"
 					position = { x= 6 y = 0 }
 					Orientation = "UPPER_LEFT"
-					shortcut = "t"
+					shortcut = "e"
 					clicksound = click_close
 					oversound = ui_menu_over
-				}
-				containerWindowType = {
-					name = "non_delivering_contracts"
-					position = { x=9 y=4 }
-
-					iconType = {
-						name = "non_delivering_contract_amount_bg"
-						spriteType = "GFX_topbar_alert_bg"
-						position = { x = 2 y = 0}
-						alwaystransparent = yes
-						frame = 2
-					}
-
-					instantTextBoxType = {
-						name ="non_delivering_contract_amount"
-						position = { x= 0 y = 0 }
-						font = "hoi_16mbs"
-						text = "999"
-						format = center
-						maxWidth = 20
-						maxHeight = 24
-						fixedsize = yes
-					}
-				}
-				
-				containerWindowType = {
-					name = "delivering_contracts"
-					position = { x=9 y=20 }
-
-					iconType = {
-						name = "ongoing_contract_amount_bg"
-						spriteType = "GFX_topbar_alert_bg"
-						position = { x = 2 y = 0}
-						alwaystransparent = yes
-						frame = 1
-					}
-
-					instantTextBoxType = {
-						name ="ongoing_contract_amount"
-						position = { x= 0 y = 0 }
-						font = "hoi_16mbs"
-						text = "999"
-						format = center
-						maxWidth = 20
-						maxHeight = 24
-						fixedsize = yes
-					}
 				}
 				
 				buttonType = {
@@ -873,7 +827,7 @@ guiTypes = {
 					position = { x= 62 y = 0 }
 					quadTextureSprite ="GFX_topbar_trade_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "o"
+					shortcut = "r"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}	
@@ -883,7 +837,7 @@ guiTypes = {
 					position = { x = 118 y = 0 }
 					quadTextureSprite ="GFX_construction_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "u"
+					shortcut = "t"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -900,7 +854,7 @@ guiTypes = {
 					position = { x = 173 y = 0 }
 					quadTextureSprite ="GFX_topbar_production"
 					Orientation = "UPPER_LEFT"
-					shortcut = "i"
+					shortcut = "y"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -910,7 +864,7 @@ guiTypes = {
 					position = { x = 228 y = 0 }
 					quadTextureSprite ="GFX_deployment_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "o"
+					shortcut = "u"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}		
@@ -920,7 +874,7 @@ guiTypes = {
 					position = { x = 284 y = 0 }
 					quadTextureSprite ="GFX_ledger_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "p"
+					shortcut = "i"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -930,7 +884,7 @@ guiTypes = {
 					position = { x = 340 y = 0 }
 					quadTextureSprite ="GFX_staff_office_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "a"
+					shortcut = "shift+e"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -941,7 +895,7 @@ guiTypes = {
 				position = { x = -275 y = 8 }
 				quadTextureSprite ="GFX_armyoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = "m"
+				shortcut = "o"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
@@ -951,7 +905,7 @@ guiTypes = {
 				position = { x = -226 y = 8 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = ","
+				shortcut = "p"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
@@ -961,7 +915,7 @@ guiTypes = {
 				position = { x = -180 y = 8 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = "."
+				shortcut = "l"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
