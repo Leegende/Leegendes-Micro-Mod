@@ -3,6 +3,14 @@
 Code
 [[
 
+// --------------------------------------------------------------
+// A collection of constants that can be used to tweak the shaders
+// To update: run "reloadfx all"
+// --------------------------------------------------------------
+
+// --------------------------------------------------------------
+// ------------------    Light          -------------------------
+// --------------------------------------------------------------
 static const float NIGHT_AMBIENT_BOOST = 3.0f; // can just be baked into the below later ye?
 
 
@@ -54,14 +62,14 @@ static const float MUD_TILING 					= 0.09;
 static const float MUD_NORMAL_CUTOFF 			= 10.982;
 static const float MUD_STRENGHTEN 				= 1.0;
 
-static const float 	SNOW_OPACITY_MIN			= 0.05f;
-static const float 	SNOW_OPACITY_MAX			= 0.01f;
-static const float 	SNOW_CAM_MIN 				= 9999.0f;
-static const float 	SNOW_CAM_MAX 				= 9999.0f;
+static const float 	SNOW_OPACITY_MIN			= 0.95f;
+static const float 	SNOW_OPACITY_MAX			= 0.2f;
+static const float 	SNOW_CAM_MIN 				= 50.0f;
+static const float 	SNOW_CAM_MAX 				= 300.0f;
 static const float 	MUD_CAM_MIN 				= 50.0f;
 static const float 	MUD_CAM_MAX 				= 300.0f;
-static const float 	ICE_CAM_MIN 				= 9999.0f;
-static const float 	ICE_CAM_MAX 				= 999.0f;
+static const float 	ICE_CAM_MIN 				= 100.0f;
+static const float 	ICE_CAM_MAX 				= 350.0f;
 
 
 static const float 	SNOW_START_HEIGHT 			= 3.0f;
@@ -70,14 +78,14 @@ static const float 	SNOW_NORMAL_START 			= 0.7f;
 static const float3 SNOW_COLOR 					= float3( 0.46, 0.48, 0.69 );
 static const float3 SNOW_WATER_COLOR 			= float3( 0.3, 0.6, 1.0 );
 static const float 	SNOW_CLIFFS 				= 5.0f;
-static const float 	SNOW_SPEC_GLOSS_MULT 		= 0.1f;
+static const float 	SNOW_SPEC_GLOSS_MULT 		= 0.2f;
 static const float 	SNOW_TILING  				= 0.05f;
 static const float 	SNOW_NOISE_TILING  			= 0.06f;
-static const float 	SNOW_ICE_NOISE_TILING  		= 0.005f;
+static const float 	SNOW_ICE_NOISE_TILING  		= 0.0625f;
 static const float 	SNOW_FROST_MIN_EFFECT  		= 0.4f;
 
 static const float3 ICE_COLOR 					= float3( 0.5f, 0.6f, 0.9f );
-static const float 	ICE_NOISE_TILING  			= 0.01f; //0.068f;
+static const float 	ICE_NOISE_TILING  			= 0.1f; //0.068f;
 
 static const float WATER_COLOR_LIGHTNESS = 0.5;
 static const float WATER_RIPPLE_EFFECT = 0.0025;
@@ -87,9 +95,20 @@ static const float COLORMAP_MUD_OVERLAY_STRENGTH = 0.5f;
 
 static const float3 FAKE_CUBEMAP_COLOR 			= float3(0.0f, 0.0f, 0.0f);
 
+// MILD_WINTER_VALUE = ###,						defines.lua   (reload defines)
+// NORMAL_WINTER_VALUE = ##,					defines.lua   (reload defines)
+// SEVERE_WINTER_VALUE = ###,					defines.lua   (reload defines)
 
 
 static const float 	BORDER_TILE					= 0.4f;
+// BORDER_WIDTH		= ###						defines.lua   (reload defines)
+
+
+
+// Snow color									standardfuncsgfx.fxh   
+// static const float3 SNOW_COLOR = float3( 0.8f, 0.8f, 0.8f );
+// Snow fade									standardfuncsgfx.fxh   
+// 	float vSnow = saturate( saturate( vNoise - ( 1.0f - vIsSnow ) ) * 5.0f );
 
 static const float 	TREE_SEASON_MIN 			= 0.5f;
 static const float 	TREE_SEASON_FADE_TWEAK 		= 2.5f;
@@ -148,12 +167,12 @@ static const float  FOW_CAMERA_MAX				= 500;
 // --------------------------------------------------------------
 
 
-static const float  SHADOW_WEIGHT_TERRAIN    	= 1.0f;
-static const float  SHADOW_WEIGHT_MAP    		= 1.0f;
-static const float  SHADOW_WEIGHT_BORDER   		= 1.0f;
-static const float  SHADOW_WEIGHT_WATER   		= 1.0f;
-static const float  SHADOW_WEIGHT_RIVER   		= 1.0f;
-static const float  SHADOW_WEIGHT_TREE   		= 1.0f;
+static const float  SHADOW_WEIGHT_TERRAIN    	= 0.7f;
+static const float  SHADOW_WEIGHT_MAP    		= 0.7f;
+static const float  SHADOW_WEIGHT_BORDER   		= 0.7f;
+static const float  SHADOW_WEIGHT_WATER   		= 0.5f;
+static const float  SHADOW_WEIGHT_RIVER   		= 0.4f;
+static const float  SHADOW_WEIGHT_TREE   		= 0.7f;
 
 // LIGHT_SHADOW_DIRECTION_X = -8.0				defines.lua   (reload defines)
 // LIGHT_SHADOW_DIRECTION_Y = -8.0				defines.lua   (reload defines)
