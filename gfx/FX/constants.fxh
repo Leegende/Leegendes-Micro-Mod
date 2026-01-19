@@ -62,8 +62,8 @@ static const float MUD_TILING 					= 0.09;
 static const float MUD_NORMAL_CUTOFF 			= 10.982;
 static const float MUD_STRENGHTEN 				= 1.0;
 
-static const float 	SNOW_OPACITY_MIN			= 0.95f;
-static const float 	SNOW_OPACITY_MAX			= 0.2f;
+static const float 	SNOW_OPACITY_MIN			= 0.05f;
+static const float 	SNOW_OPACITY_MAX			= 0.1f;
 static const float 	SNOW_CAM_MIN 				= 50.0f;
 static const float 	SNOW_CAM_MAX 				= 300.0f;
 static const float 	MUD_CAM_MIN 				= 50.0f;
@@ -81,11 +81,11 @@ static const float 	SNOW_CLIFFS 				= 5.0f;
 static const float 	SNOW_SPEC_GLOSS_MULT 		= 0.2f;
 static const float 	SNOW_TILING  				= 0.05f;
 static const float 	SNOW_NOISE_TILING  			= 0.06f;
-static const float 	SNOW_ICE_NOISE_TILING  		= 0.0625f;
+static const float 	SNOW_ICE_NOISE_TILING  		= 0.001f;
 static const float 	SNOW_FROST_MIN_EFFECT  		= 0.4f;
 
 static const float3 ICE_COLOR 					= float3( 0.5f, 0.6f, 0.9f );
-static const float 	ICE_NOISE_TILING  			= 0.1f; //0.068f;
+static const float 	ICE_NOISE_TILING  			= 0.00f; //0.068f;
 
 static const float WATER_COLOR_LIGHTNESS = 0.5;
 static const float WATER_RIPPLE_EFFECT = 0.0025;
