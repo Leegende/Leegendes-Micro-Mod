@@ -1,0 +1,9 @@
+version="*.**.*"
+tags={
+	"Graphics"
+}
+picture="thumbnail.png"
+name="Leegendes Micro Mod"
+supported_version="*.**.*"
+path="C:/Users/leqit/Documents/Paradox Interactive/Hearts of Iron IV/mod/Leegendes-Micro-Mod"
+remote_file_id="3369204653"
